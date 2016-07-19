@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  LNTool
+//
+//  Created by cong on 16/7/1.
+//  Copyright © 2016年 lin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// 打印日志
+#ifdef DEBUG
+
+    #define LNLog(...) NSLog(__VA_ARGS__) // 替换系统的打印
+
+#else
+
+    #define LNLog(...)        // 如果是发布版本,保证不报错
+
+#endif
+
+
+#endif /* PrefixHeader_pch */
