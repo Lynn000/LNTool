@@ -6,9 +6,9 @@
 //  Copyright © 2016年 lin. All rights reserved.
 //
 
-#import "NSDictionary+NSDictionary_Log.h"
+#import "NSDictionary+Log.h"
 
-@implementation NSDictionary (NSDictionary_Log)
+@implementation NSDictionary (Log)
 
 - (NSString *)descriptionWithLocale:(id)locale
 {

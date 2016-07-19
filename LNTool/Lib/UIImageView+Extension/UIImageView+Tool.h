@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImageView (LNImageViewTool)
+@interface UIImageView (Tool)
 
 // 添加毛玻璃效果
 + (UIImageView *)blurEffectiveWithImage: (UIImage *)oriImage;

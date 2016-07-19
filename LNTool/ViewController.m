@@ -7,10 +7,15 @@
 //
 
 #import "ViewController.h"
-#import "NSString+LNStringTool.h"
-#import "UIImage+LNImageTool.h"
-#import "NSString+LNStringTool.h"
+#import "NSString+Tool.h"
+#import "UIImage+Tool.h"
+#import "NSString+Tool.h"
+
+NSString *const ID = @"demoCell";
+
 @interface ViewController ()
+
+@property (nonatomic,strong) NSArray *demoArray;
 
 @end
 
@@ -18,36 +23,54 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    NSString *str = @"我想要高亮文本";
-//    NSMutableAttributedString *attriStting = [[NSMutableAttributedString alloc]initWithString:str];
-//    NSRange range = [str rangeOfString:@"高亮"];
-//    [attriStting addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:range];
-    UILabel *textLbl = [[UILabel alloc]init];
-    textLbl.text = @"我想要高亮文本";
-    textLbl.attributedText = [textLbl.text highLightStringWithString:@"高亮" andColor:[UIColor blueColor]];
-    textLbl.frame = CGRectMake(100, 100, 300, 30);
-    [self.view addSubview:textLbl];
     
-    self.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1];
+    // 设置demo数据源数组
+    self.demoArray = @[@"LNStringDemoController"];
+       
+}
 
-    NSLog(@"%@",[@"str.h" fileInCachesAddress]);
-    NSLog(@"%@",[@"str.h" fileInDocumentAddress]);
+//- (void)viewDidAppear:(BOOL)animated{
+//    
+//    
+//    UIImageView *imgView = [[UIImageView alloc]initWithImage:[UIImage getScreenShotImage]];
+//    imgView.frame = CGRectMake(0, 0, 200, 200);
+//    [self.view addSubview:imgView];
+//    self.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1];
+//
+//}
+
+#pragma mark - demo代理方法
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    // 获得控制器
+    Class demoVCClass = NSClassFromString(self.demoArray[indexPath.row]);
+    
+    UIViewController *demoController = [[demoVCClass alloc]init];
+    
+    demoController.title = self.demoArray[indexPath.row];
+    
+    [self.navigationController pushViewController:demoController animated:YES];
     
 }
 
-- (void)viewDidAppear:(BOOL)animated{
+#pragma mark - demo数据源方法
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
+    return self.demoArray.count;
     
-    UIImageView *imgView = [[UIImageView alloc]initWithImage:[UIImage getScreenShotImage]];
-    imgView.frame = CGRectMake(0, 0, 200, 200);
-    [self.view addSubview:imgView];
-    self.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1];
-
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+    }
+    
+    cell.textLabel.text = self.demoArray[indexPath.row];
+    
+    return cell;
 }
+
 
 @end

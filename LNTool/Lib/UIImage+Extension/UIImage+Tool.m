@@ -6,9 +6,9 @@
 //  Copyright © 2016年 lin. All rights reserved.
 //
 
-#import "UIImage+LNImageTool.h"
+#import "UIImage+Tool.h"
 
-@implementation UIImage (LNImageTool)
+@implementation UIImage (Tool)
 
 // MARK : - 图片拉伸
 +(UIImage *)imageStretchWithImageName:(NSString *)ImageName{

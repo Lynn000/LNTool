@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (LNImageTool)
+@interface UIImage (Tool)
 
 // 图片拉伸方法
 +(UIImage *)imageStretchWithImageName:(NSString *)ImageName;

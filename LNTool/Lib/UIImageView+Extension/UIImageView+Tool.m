@@ -6,9 +6,9 @@
 //  Copyright © 2016年 lin. All rights reserved.
 //
 
-#import "UIImageView+LNImageViewTool.h"
+#import "UIImageView+Tool.h"
 
-@implementation UIImageView (LNImageViewTool)
+@implementation UIImageView (Tool)
 
 + (UIImageView *)blurEffectiveWithImage:(UIImage *)oriImage{
     

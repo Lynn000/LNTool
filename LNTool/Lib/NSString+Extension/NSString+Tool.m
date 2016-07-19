@@ -6,16 +6,16 @@
 //  Copyright © 2016年 lin. All rights reserved.
 //
 
-#import "NSString+LNStringTool.h"
+#import "NSString+Tool.h"
 
-@implementation NSString (LNStringTool)
+@implementation NSString (Tool)
 
-// MARK : - 获取字符串大小
+// MARK: - 获取字符串大小
 -(CGSize)textSizeWithMaxSize:(CGSize)maxSize TextFont:(UIFont*)font{
     return [self boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:font} context:nil].size;
 }
 
-// MARK : - 高亮文本
+// MARK: - 高亮文本
 - (NSAttributedString *)highLightStringWithString:(NSString *)highLightString andColor:(UIColor *)highLightColor{
     //定义文本属性
     NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc]initWithString:self];
@@ -26,7 +26,7 @@
     return attrStr;
 }
 
-// MARK : - 获得在缓存中的地址
+// MARK: - 获得在缓存中的地址
 - (NSString *)fileInCachesAddress{
     
     NSString *cachesPath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).lastObject;
@@ -35,6 +35,7 @@
     
 }
 
+// MARK: - 获得在Document中的地址
 - (NSString *)fileInDocumentAddress{
     
     NSString *documentPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).lastObject;

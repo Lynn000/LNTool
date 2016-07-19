@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (NSDictionary_Log)
+@interface NSDictionary (Log)
 
 @end

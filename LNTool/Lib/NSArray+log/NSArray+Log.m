@@ -6,9 +6,9 @@
 //  Copyright © 2016年 lin. All rights reserved.
 //
 
-#import "NSArray+NSArray_Log.h"
+#import "NSArray+Log.h"
 
-@implementation NSArray (NSArray_Log)
+@implementation NSArray (Log)
 
 - (NSString *)descriptionWithLocale:(id)locale
 {

@@ -8,18 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NSString (LNStringTool)
+@interface NSString (Tool)
 
-// 获取字符串大小
+// MARK: -获取字符串大小
 - (CGSize)textSizeWithMaxSize:(CGSize)maxSize TextFont:(UIFont *)font;
 
-// 高亮文本
+// MARK: -高亮文本
 - (NSAttributedString *)highLightStringWithString:(NSString *)highLightString andColor:(UIColor *)highLightColor;
 
-// 根据地址 获得在沙盒中缓存目录的地址
+// MARK: -根据地址 获得在沙盒中缓存目录的地址
 - (NSString *)fileInCachesAddress;
 
-// 根据地址 获得在沙盒中document的地址
+// MARK: -根据地址 获得在沙盒中document的地址
 - (NSString *)fileInDocumentAddress;
 
 @end

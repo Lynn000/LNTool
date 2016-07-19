@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (NSArray_Log)
+@interface NSArray (Log)
 
 
 

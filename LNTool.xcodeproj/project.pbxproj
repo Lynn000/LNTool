@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1881861D1D3DD2A000DE0795 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 188186161D3DD2A000DE0795 /* NSArray+Log.m */; };
+		1881861E1D3DD2A000DE0795 /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 188186191D3DD2A000DE0795 /* NSDictionary+Log.m */; };
+		1881861F1D3DD2A000DE0795 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881861C1D3DD2A000DE0795 /* NSString+Tool.m */; };
+		1881862E1D3DD3C300DE0795 /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881862A1D3DD3C300DE0795 /* UIImage+Tool.m */; };
+		1881862F1D3DD3C300DE0795 /* UIImageView+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881862D1D3DD3C300DE0795 /* UIImageView+Tool.m */; };
+		188186321D3DD52E00DE0795 /* LNStringDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188186311D3DD52E00DE0795 /* LNStringDemoController.m */; };
 		F4A2D7A11CD76C8400C33C96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A2D7A01CD76C8400C33C96 /* main.m */; };
 		F4A2D7A41CD76C8400C33C96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A2D7A31CD76C8400C33C96 /* AppDelegate.m */; };
 		F4A2D7A71CD76C8400C33C96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A2D7A61CD76C8400C33C96 /* ViewController.m */; };
@@ -14,13 +20,21 @@
 		F4A2D7AC1CD76C8400C33C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A2D7AB1CD76C8400C33C96 /* Assets.xcassets */; };
 		F4A2D7AF1CD76C8400C33C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A2D7AD1CD76C8400C33C96 /* LaunchScreen.storyboard */; };
 		F4A664921D26910300651A2A /* PrintLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A664911D26910300651A2A /* PrintLog.swift */; };
-		F4A664D01D26AB5400651A2A /* NSArray+NSArray_Log.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A664C81D26AB5400651A2A /* NSArray+NSArray_Log.m */; };
-		F4A664D11D26AB5400651A2A /* NSDictionary+NSDictionary_Log.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A664CA1D26AB5400651A2A /* NSDictionary+NSDictionary_Log.m */; };
-		F4A664D21D26AB5400651A2A /* NSString+LNStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A664CC1D26AB5400651A2A /* NSString+LNStringTool.m */; };
-		F4A664D31D26AB5400651A2A /* UIImage+LNImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A664CF1D26AB5400651A2A /* UIImage+LNImageTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		188186151D3DD2A000DE0795 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		188186161D3DD2A000DE0795 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		188186181D3DD2A000DE0795 /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		188186191D3DD2A000DE0795 /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
+		1881861B1D3DD2A000DE0795 /* NSString+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
+		1881861C1D3DD2A000DE0795 /* NSString+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tool.m"; sourceTree = "<group>"; };
+		188186291D3DD3C300DE0795 /* UIImage+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tool.h"; sourceTree = "<group>"; };
+		1881862A1D3DD3C300DE0795 /* UIImage+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tool.m"; sourceTree = "<group>"; };
+		1881862C1D3DD3C300DE0795 /* UIImageView+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Tool.h"; sourceTree = "<group>"; };
+		1881862D1D3DD3C300DE0795 /* UIImageView+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Tool.m"; sourceTree = "<group>"; };
+		188186301D3DD52E00DE0795 /* LNStringDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNStringDemoController.h; sourceTree = "<group>"; };
+		188186311D3DD52E00DE0795 /* LNStringDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNStringDemoController.m; sourceTree = "<group>"; };
 		F4A2D79C1CD76C8400C33C96 /* LNTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A2D7A01CD76C8400C33C96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4A2D7A21CD76C8400C33C96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,15 +47,7 @@
 		F4A2D7B01CD76C8400C33C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4A664911D26910300651A2A /* PrintLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLog.swift; sourceTree = "<group>"; };
 		F4A664931D26930D00651A2A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		F4A664C71D26AB5400651A2A /* NSArray+NSArray_Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NSArray_Log.h"; sourceTree = "<group>"; };
-		F4A664C81D26AB5400651A2A /* NSArray+NSArray_Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NSArray_Log.m"; sourceTree = "<group>"; };
-		F4A664C91D26AB5400651A2A /* NSDictionary+NSDictionary_Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSDictionary_Log.h"; sourceTree = "<group>"; };
-		F4A664CA1D26AB5400651A2A /* NSDictionary+NSDictionary_Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSDictionary_Log.m"; sourceTree = "<group>"; };
-		F4A664CB1D26AB5400651A2A /* NSString+LNStringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LNStringTool.h"; sourceTree = "<group>"; };
-		F4A664CC1D26AB5400651A2A /* NSString+LNStringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LNStringTool.m"; sourceTree = "<group>"; };
 		F4A664CD1D26AB5400651A2A /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
-		F4A664CE1D26AB5400651A2A /* UIImage+LNImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LNImageTool.h"; sourceTree = "<group>"; };
-		F4A664CF1D26AB5400651A2A /* UIImage+LNImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LNImageTool.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		188186141D3DD2A000DE0795 /* NSArray+log */ = {
+			isa = PBXGroup;
+			children = (
+				188186151D3DD2A000DE0795 /* NSArray+Log.h */,
+				188186161D3DD2A000DE0795 /* NSArray+Log.m */,
+			);
+			path = "NSArray+log";
+			sourceTree = "<group>";
+		};
+		188186171D3DD2A000DE0795 /* NSDictionary+log */ = {
+			isa = PBXGroup;
+			children = (
+				188186181D3DD2A000DE0795 /* NSDictionary+Log.h */,
+				188186191D3DD2A000DE0795 /* NSDictionary+Log.m */,
+			);
+			path = "NSDictionary+log";
+			sourceTree = "<group>";
+		};
+		1881861A1D3DD2A000DE0795 /* NSString+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1881861B1D3DD2A000DE0795 /* NSString+Tool.h */,
+				1881861C1D3DD2A000DE0795 /* NSString+Tool.m */,
+			);
+			path = "NSString+Extension";
+			sourceTree = "<group>";
+		};
+		188186281D3DD3C300DE0795 /* UIImage+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				188186291D3DD3C300DE0795 /* UIImage+Tool.h */,
+				1881862A1D3DD3C300DE0795 /* UIImage+Tool.m */,
+			);
+			path = "UIImage+Extension";
+			sourceTree = "<group>";
+		};
+		1881862B1D3DD3C300DE0795 /* UIImageView+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1881862C1D3DD3C300DE0795 /* UIImageView+Tool.h */,
+				1881862D1D3DD3C300DE0795 /* UIImageView+Tool.m */,
+			);
+			path = "UIImageView+Extension";
+			sourceTree = "<group>";
+		};
 		F4A2D7931CD76C8400C33C96 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +161,8 @@
 			children = (
 				F4A2D7A51CD76C8400C33C96 /* ViewController.h */,
 				F4A2D7A61CD76C8400C33C96 /* ViewController.m */,
+				188186301D3DD52E00DE0795 /* LNStringDemoController.h */,
+				188186311D3DD52E00DE0795 /* LNStringDemoController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -117,15 +170,12 @@
 		F4A664C61D26AB5400651A2A /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				F4A664C71D26AB5400651A2A /* NSArray+NSArray_Log.h */,
-				F4A664C81D26AB5400651A2A /* NSArray+NSArray_Log.m */,
-				F4A664C91D26AB5400651A2A /* NSDictionary+NSDictionary_Log.h */,
-				F4A664CA1D26AB5400651A2A /* NSDictionary+NSDictionary_Log.m */,
-				F4A664CB1D26AB5400651A2A /* NSString+LNStringTool.h */,
-				F4A664CC1D26AB5400651A2A /* NSString+LNStringTool.m */,
+				188186281D3DD3C300DE0795 /* UIImage+Extension */,
+				1881862B1D3DD3C300DE0795 /* UIImageView+Extension */,
+				188186141D3DD2A000DE0795 /* NSArray+log */,
+				188186171D3DD2A000DE0795 /* NSDictionary+log */,
+				1881861A1D3DD2A000DE0795 /* NSString+Extension */,
 				F4A664CD1D26AB5400651A2A /* Singleton.h */,
-				F4A664CE1D26AB5400651A2A /* UIImage+LNImageTool.h */,
-				F4A664CF1D26AB5400651A2A /* UIImage+LNImageTool.m */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -202,12 +252,14 @@
 			files = (
 				F4A2D7A71CD76C8400C33C96 /* ViewController.m in Sources */,
 				F4A2D7A41CD76C8400C33C96 /* AppDelegate.m in Sources */,
-				F4A664D11D26AB5400651A2A /* NSDictionary+NSDictionary_Log.m in Sources */,
+				1881862F1D3DD3C300DE0795 /* UIImageView+Tool.m in Sources */,
+				1881861E1D3DD2A000DE0795 /* NSDictionary+Log.m in Sources */,
+				1881862E1D3DD3C300DE0795 /* UIImage+Tool.m in Sources */,
+				188186321D3DD52E00DE0795 /* LNStringDemoController.m in Sources */,
 				F4A2D7A11CD76C8400C33C96 /* main.m in Sources */,
 				F4A664921D26910300651A2A /* PrintLog.swift in Sources */,
-				F4A664D21D26AB5400651A2A /* NSString+LNStringTool.m in Sources */,
-				F4A664D01D26AB5400651A2A /* NSArray+NSArray_Log.m in Sources */,
-				F4A664D31D26AB5400651A2A /* UIImage+LNImageTool.m in Sources */,
+				1881861F1D3DD2A000DE0795 /* NSString+Tool.m in Sources */,
+				1881861D1D3DD2A000DE0795 /* NSArray+Log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
