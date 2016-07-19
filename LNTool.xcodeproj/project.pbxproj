@@ -13,6 +13,9 @@
 		1881862E1D3DD3C300DE0795 /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881862A1D3DD3C300DE0795 /* UIImage+Tool.m */; };
 		1881862F1D3DD3C300DE0795 /* UIImageView+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881862D1D3DD3C300DE0795 /* UIImageView+Tool.m */; };
 		188186321D3DD52E00DE0795 /* LNStringDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188186311D3DD52E00DE0795 /* LNStringDemoController.m */; };
+		188186351D3DF0A700DE0795 /* LNDictionaryDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188186341D3DF0A700DE0795 /* LNDictionaryDemoController.m */; };
+		188186381D3DF50400DE0795 /* LNArrayDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188186371D3DF50400DE0795 /* LNArrayDemoController.m */; };
+		1881863B1D3DF5EC00DE0795 /* LNImageViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881863A1D3DF5EC00DE0795 /* LNImageViewDemoController.m */; };
 		F4A2D7A11CD76C8400C33C96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A2D7A01CD76C8400C33C96 /* main.m */; };
 		F4A2D7A41CD76C8400C33C96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A2D7A31CD76C8400C33C96 /* AppDelegate.m */; };
 		F4A2D7A71CD76C8400C33C96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A2D7A61CD76C8400C33C96 /* ViewController.m */; };
@@ -35,6 +38,12 @@
 		1881862D1D3DD3C300DE0795 /* UIImageView+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Tool.m"; sourceTree = "<group>"; };
 		188186301D3DD52E00DE0795 /* LNStringDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNStringDemoController.h; sourceTree = "<group>"; };
 		188186311D3DD52E00DE0795 /* LNStringDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNStringDemoController.m; sourceTree = "<group>"; };
+		188186331D3DF0A700DE0795 /* LNDictionaryDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNDictionaryDemoController.h; sourceTree = "<group>"; };
+		188186341D3DF0A700DE0795 /* LNDictionaryDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNDictionaryDemoController.m; sourceTree = "<group>"; };
+		188186361D3DF50400DE0795 /* LNArrayDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNArrayDemoController.h; sourceTree = "<group>"; };
+		188186371D3DF50400DE0795 /* LNArrayDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNArrayDemoController.m; sourceTree = "<group>"; };
+		188186391D3DF5EC00DE0795 /* LNImageViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNImageViewDemoController.h; sourceTree = "<group>"; };
+		1881863A1D3DF5EC00DE0795 /* LNImageViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNImageViewDemoController.m; sourceTree = "<group>"; };
 		F4A2D79C1CD76C8400C33C96 /* LNTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A2D7A01CD76C8400C33C96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4A2D7A21CD76C8400C33C96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -163,6 +172,12 @@
 				F4A2D7A61CD76C8400C33C96 /* ViewController.m */,
 				188186301D3DD52E00DE0795 /* LNStringDemoController.h */,
 				188186311D3DD52E00DE0795 /* LNStringDemoController.m */,
+				188186331D3DF0A700DE0795 /* LNDictionaryDemoController.h */,
+				188186341D3DF0A700DE0795 /* LNDictionaryDemoController.m */,
+				188186361D3DF50400DE0795 /* LNArrayDemoController.h */,
+				188186371D3DF50400DE0795 /* LNArrayDemoController.m */,
+				188186391D3DF5EC00DE0795 /* LNImageViewDemoController.h */,
+				1881863A1D3DF5EC00DE0795 /* LNImageViewDemoController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -255,8 +270,11 @@
 				1881862F1D3DD3C300DE0795 /* UIImageView+Tool.m in Sources */,
 				1881861E1D3DD2A000DE0795 /* NSDictionary+Log.m in Sources */,
 				1881862E1D3DD3C300DE0795 /* UIImage+Tool.m in Sources */,
+				1881863B1D3DF5EC00DE0795 /* LNImageViewDemoController.m in Sources */,
 				188186321D3DD52E00DE0795 /* LNStringDemoController.m in Sources */,
 				F4A2D7A11CD76C8400C33C96 /* main.m in Sources */,
+				188186351D3DF0A700DE0795 /* LNDictionaryDemoController.m in Sources */,
+				188186381D3DF50400DE0795 /* LNArrayDemoController.m in Sources */,
 				F4A664921D26910300651A2A /* PrintLog.swift in Sources */,
 				1881861F1D3DD2A000DE0795 /* NSString+Tool.m in Sources */,
 				1881861D1D3DD2A000DE0795 /* NSArray+Log.m in Sources */,

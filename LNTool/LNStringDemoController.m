@@ -72,7 +72,7 @@
     // stringLength
     UIButton *strLenBtn = [UIButton buttonWithType:UIButtonTypeSystem];
     [strLenBtn setTitle:@"获得字符串长度" forState:UIControlStateNormal];
-    pathBtn.frame = CGRectMake(50, 194, 300, 30);
+    strLenBtn.frame = CGRectMake(50, 194, 300, 30);
     [strLenBtn addTarget:self action:@selector(stringLength) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:strLenBtn];
 }
