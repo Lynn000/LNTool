@@ -23,6 +23,11 @@
 		F4A2D7AC1CD76C8400C33C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A2D7AB1CD76C8400C33C96 /* Assets.xcassets */; };
 		F4A2D7AF1CD76C8400C33C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A2D7AD1CD76C8400C33C96 /* LaunchScreen.storyboard */; };
 		F4A664921D26910300651A2A /* PrintLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A664911D26910300651A2A /* PrintLog.swift */; };
+		F4D475261D3E152D00F6E6B4 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D475251D3E152D00F6E6B4 /* UIButton+Extension.m */; };
+		F4D475291D3E157F00F6E6B4 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D475281D3E157F00F6E6B4 /* UILabel+Extension.m */; };
+		F4D4752C1D3E19E600F6E6B4 /* LNButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D4752B1D3E19E600F6E6B4 /* LNButtonDemoController.m */; };
+		F4D4752F1D3E2C7B00F6E6B4 /* LNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D4752E1D3E2C7B00F6E6B4 /* LNButton.m */; };
+		F4D475321D3E3FB100F6E6B4 /* LNLabelDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D475311D3E3FB100F6E6B4 /* LNLabelDemoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +62,16 @@
 		F4A664911D26910300651A2A /* PrintLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLog.swift; sourceTree = "<group>"; };
 		F4A664931D26930D00651A2A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F4A664CD1D26AB5400651A2A /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		F4D475241D3E152D00F6E6B4 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		F4D475251D3E152D00F6E6B4 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		F4D475271D3E157F00F6E6B4 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		F4D475281D3E157F00F6E6B4 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		F4D4752A1D3E19E600F6E6B4 /* LNButtonDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNButtonDemoController.h; sourceTree = "<group>"; };
+		F4D4752B1D3E19E600F6E6B4 /* LNButtonDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNButtonDemoController.m; sourceTree = "<group>"; };
+		F4D4752D1D3E2C7B00F6E6B4 /* LNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNButton.h; sourceTree = "<group>"; };
+		F4D4752E1D3E2C7B00F6E6B4 /* LNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNButton.m; sourceTree = "<group>"; };
+		F4D475301D3E3FB100F6E6B4 /* LNLabelDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNLabelDemoController.h; sourceTree = "<group>"; };
+		F4D475311D3E3FB100F6E6B4 /* LNLabelDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNLabelDemoController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +193,10 @@
 				188186371D3DF50400DE0795 /* LNArrayDemoController.m */,
 				188186391D3DF5EC00DE0795 /* LNImageViewDemoController.h */,
 				1881863A1D3DF5EC00DE0795 /* LNImageViewDemoController.m */,
+				F4D4752A1D3E19E600F6E6B4 /* LNButtonDemoController.h */,
+				F4D4752B1D3E19E600F6E6B4 /* LNButtonDemoController.m */,
+				F4D475301D3E3FB100F6E6B4 /* LNLabelDemoController.h */,
+				F4D475311D3E3FB100F6E6B4 /* LNLabelDemoController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -185,6 +204,8 @@
 		F4A664C61D26AB5400651A2A /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				F4D475221D3E150800F6E6B4 /* UIButton+Extension */,
+				F4D475231D3E150800F6E6B4 /* UILabel+Extension */,
 				188186281D3DD3C300DE0795 /* UIImage+Extension */,
 				1881862B1D3DD3C300DE0795 /* UIImageView+Extension */,
 				188186141D3DD2A000DE0795 /* NSArray+log */,
@@ -193,6 +214,26 @@
 				F4A664CD1D26AB5400651A2A /* Singleton.h */,
 			);
 			path = Lib;
+			sourceTree = "<group>";
+		};
+		F4D475221D3E150800F6E6B4 /* UIButton+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F4D475241D3E152D00F6E6B4 /* UIButton+Extension.h */,
+				F4D475251D3E152D00F6E6B4 /* UIButton+Extension.m */,
+				F4D4752D1D3E2C7B00F6E6B4 /* LNButton.h */,
+				F4D4752E1D3E2C7B00F6E6B4 /* LNButton.m */,
+			);
+			path = "UIButton+Extension";
+			sourceTree = "<group>";
+		};
+		F4D475231D3E150800F6E6B4 /* UILabel+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F4D475271D3E157F00F6E6B4 /* UILabel+Extension.h */,
+				F4D475281D3E157F00F6E6B4 /* UILabel+Extension.m */,
+			);
+			path = "UILabel+Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,13 +308,18 @@
 			files = (
 				F4A2D7A71CD76C8400C33C96 /* ViewController.m in Sources */,
 				F4A2D7A41CD76C8400C33C96 /* AppDelegate.m in Sources */,
+				F4D4752C1D3E19E600F6E6B4 /* LNButtonDemoController.m in Sources */,
+				F4D475321D3E3FB100F6E6B4 /* LNLabelDemoController.m in Sources */,
 				1881862F1D3DD3C300DE0795 /* UIImageView+Tool.m in Sources */,
+				F4D475291D3E157F00F6E6B4 /* UILabel+Extension.m in Sources */,
 				1881861E1D3DD2A000DE0795 /* NSDictionary+Log.m in Sources */,
+				F4D4752F1D3E2C7B00F6E6B4 /* LNButton.m in Sources */,
 				1881862E1D3DD3C300DE0795 /* UIImage+Tool.m in Sources */,
 				1881863B1D3DF5EC00DE0795 /* LNImageViewDemoController.m in Sources */,
 				188186321D3DD52E00DE0795 /* LNStringDemoController.m in Sources */,
 				F4A2D7A11CD76C8400C33C96 /* main.m in Sources */,
 				188186351D3DF0A700DE0795 /* LNDictionaryDemoController.m in Sources */,
+				F4D475261D3E152D00F6E6B4 /* UIButton+Extension.m in Sources */,
 				188186381D3DF50400DE0795 /* LNArrayDemoController.m in Sources */,
 				F4A664921D26910300651A2A /* PrintLog.swift in Sources */,
 				1881861F1D3DD2A000DE0795 /* NSString+Tool.m in Sources */,

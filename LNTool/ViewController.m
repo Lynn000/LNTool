@@ -25,7 +25,7 @@ NSString *const ID = @"demoCell";
     [super viewDidLoad];
     
     // 设置demo数据源数组
-    self.demoArray = @[@"LNStringDemoController",@"LNDictionaryDemoController",@"LNArrayDemoController",@"LNImageViewDemoController"];
+    self.demoArray = @[@"LNStringDemoController",@"LNDictionaryDemoController",@"LNArrayDemoController",@"LNImageViewDemoController",@"LNButtonDemoController",@"LNLabelDemoController"];
        
 }
 
